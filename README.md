@@ -14,5 +14,8 @@
   \_styles/ .. style
   \_utils/ .. global utils
   (route)
-  login .. /login router
-  join .. /join router
+  page.tsx .. path : '/' page
+  login
+  ㄴpage.tsx .. path : '/login' page
+  join
+  ㄴpage.tsx .. path : '/join' page
