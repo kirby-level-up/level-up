@@ -1,7 +1,6 @@
-import React from 'react';
-
+import '@/app/_styles/test.scss';
 const Main = () => {
-  return <div>Main page</div>;
+  return <div className="main-page">Main page</div>;
 };
 
 export default Main;
