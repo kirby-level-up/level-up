@@ -5,7 +5,7 @@
   --color-blue: #8aaae5;
   --color-yellow: #ffcb77;
   --color-red: #fe6d73;
-  --color-very-lightgrey: #fafafa;
+  --color-extra-lightgrey: #fafafa;
   --color-lightgrey: #ececec;
   --color-grey: #a6a6a6;
   --color-darkgrey: #808080;
@@ -101,7 +101,7 @@ mark,
 audio,
 video {
   margin: 0;
-  padding: 0;
+  padding: 0 15px;
   border: 0;
   font-size: 100%;
   font: inherit;

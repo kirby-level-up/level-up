@@ -1,7 +1,11 @@
-@import './global.scss';
+@import 'variable.scss';
+
+@mixin mixin-with-args($size) {
+  font-weight: $size;
+}
 
 .main-page {
-  font-weight: var(--font-bold);
   font-size: 24px;
-  color: #333;
+  color: $red;
+  @include mixin-with-args($font-bold);
 }
