@@ -1,4 +1,5 @@
-import '@/app/_styles/test.scss';
+import '@/_styles/test.scss';
+
 const Main = () => {
   return <div className="main-page">Main page</div>;
 };
