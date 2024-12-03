@@ -1,4 +1,4 @@
-import '@/app/_styles/test.scss';
+import '@/_styles/test.scss';
 
 import RandomAvatar from '../_components/RandomAvatar';
 
