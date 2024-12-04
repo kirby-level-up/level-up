@@ -1,5 +1,5 @@
 import styles from '@/_styles/module/Button.module.scss';
-import React, { MouseEventHandler, ReactNode } from 'react';
+import { MouseEventHandler } from 'react';
 
 interface ButtonProps {
   type: 'button' | 'submit';
@@ -9,10 +9,9 @@ interface ButtonProps {
   size?: 'small' | 'normal' | 'large' | 'xlarge' | 'xlarge2';
   onClick?: MouseEventHandler<HTMLButtonElement>;
   disabled?: boolean;
-  children?: ReactNode;
 }
 
-const Button: React.FC<ButtonProps> = ({
+const Button = ({
   type,
   text,
   color = 'darkgrey',
@@ -20,7 +19,7 @@ const Button: React.FC<ButtonProps> = ({
   full = false,
   disabled = false,
   onClick,
-}) => {
+}: ButtonProps) => {
   const buttonClass =
     `${styles.button} ${styles[color]} ${styles[size]} ${disabled ? styles.disabled : ''}  ${full ? styles.full : ''} `.trim();
 
