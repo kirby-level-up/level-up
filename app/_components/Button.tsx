@@ -1,4 +1,4 @@
-import styles from '@/app/_styles/module/Button.module.scss';
+import styles from '@/_styles/module/Button.module.scss';
 import React, { MouseEventHandler, ReactNode } from 'react';
 
 interface ButtonProps {
