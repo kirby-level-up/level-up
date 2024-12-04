@@ -1,4 +1,4 @@
-import '@/_styles/global.scss';
+import '@/_styles/global.css';
 
 import localFont from 'next/font/local';
 

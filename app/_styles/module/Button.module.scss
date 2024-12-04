@@ -1,0 +1,29 @@
+@use 'sass:map';
+@import '../variable.scss';
+@import '@/app/_styles/mixin/variants-mixin.scss';
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: $font-bold;
+  color: white;
+  padding: 0.625rem 1.25rem;
+
+  @include generate-variants($color-map, 'background-color');
+
+  @include generate-variants($font-size-map, 'font-size');
+
+  &.full {
+    width: 100%;
+  }
+
+  &.disabled {
+    background-color: $darkgrey;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}

@@ -1,0 +1,7 @@
+@mixin generate-variants($map, $property) {
+  @each $key, $value in $map {
+    &.#{$key} {
+      #{$property}: $value;
+    }
+  }
+}
