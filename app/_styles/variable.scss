@@ -1,27 +1,42 @@
-@import './global.scss';
-
 // color
-$green: var(--color-green);
-$blue: var(--color-blue);
-$yellow: var(--color-yellow);
-$red: var(--color-red);
-$extra-lightgrey: var(--color-extra-lightgrey);
-$lightgrey: var(--color-lightgrey);
-$grey: var(--color-grey);
-$darkgrey: var(--color-darkgrey);
-$dimmed: var(--color-dimmed);
-$dark: var(--color-dark);
+$green: #7dd181;
+$blue: #8aaae5;
+$yellow: #ffcb77;
+$red: #fe6d73;
+$extra-lightgrey: #fafafa;
+$lightgrey: #ececec;
+$grey: #a6a6a6;
+$darkgrey: #808080;
+$dimmed: rgba(68, 68, 68, 0.7);
+$dark: #444444;
 
 // font-weight
-$font-light: var(--font-light);
-$font-regular: var(--font-regular);
-$font-medium: var(--font-medium);
-$font-semimBold: var(--font-semimBold);
-$font-bold: var(--font-bold);
+$font-light: 200;
+$font-regular: 400;
+$font-medium: 500;
+$font-semimBold: 600;
+$font-bold: 700;
 
-//text-size
-$text-small: var(--text-samll);
-$text-normal: var(--text-normal);
-$text-large: var(--text-large);
-$text-xlarge: var(--text-xlarge);
-$text-2xlarge: var(--text-2xlarge);
+//font-size
+$font-small: 12px;
+$font-normal: 16px;
+$font-large: 18px;
+$font-xlarge: 24px;
+$font-2xlarge: 26px;
+
+//color-map
+$color-map: (
+  'darkgrey': $darkgrey,
+  'yellow': $yellow,
+  'green': $green,
+  'red': $red,
+  'blue': $blue,
+);
+//font-size-map
+$font-size-map: (
+  'small': $font-small,
+  'normal': $font-normal,
+  'large': $font-large,
+  'xlarge': $font-xlarge,
+  'xlarge2': $font-2xlarge,
+);
